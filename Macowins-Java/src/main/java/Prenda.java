@@ -10,6 +10,7 @@ public class Prenda {
 
     private double precio;
     private Estado estado;
+    private String tipo;
 
     public  double precioDeVenta(){
         return this.precio-this.estado.descuento(this.precio);
